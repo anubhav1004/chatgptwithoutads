@@ -164,7 +164,7 @@ export default function ChatArea() {
             onSend={handleSendMessage}
           />
           <p className="text-[10px] sm:text-xs text-text-secondary mt-3 sm:mt-4 text-center">
-            ChatGPT can make mistakes. Check important info.
+            ChatGPT without ads can make mistakes. Check important info.
           </p>
         </div>
       </div>
@@ -212,7 +212,7 @@ export default function ChatArea() {
 
       {/* Footer text */}
       <p className="text-[10px] sm:text-xs text-text-secondary mt-6 sm:mt-8">
-        ChatGPT can make mistakes. Check important info.
+        ChatGPT without ads can make mistakes. Check important info.
       </p>
     </div>
   );
