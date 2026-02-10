@@ -26,7 +26,7 @@ function DownloadCard() {
         className="inline-flex items-center gap-2 bg-[#10a37f] hover:bg-[#0d8a6a] text-white px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-colors"
       >
         <GraduationCap size={16} className="sm:w-[18px] sm:h-[18px]" />
-        Download Now (it&apos;s free lol)
+        Just try it
       </a>
     </div>
   );
