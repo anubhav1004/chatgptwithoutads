@@ -175,7 +175,7 @@ export default function ChatArea() {
     <div className="flex-1 flex flex-col items-center justify-center px-3 sm:px-4">
       {/* Main heading */}
       <h1 className="text-2xl sm:text-3xl font-medium text-text-primary mb-6 sm:mb-8 text-center">
-        Where should we begin?
+        Where should we begin? No ads here.
       </h1>
 
       {/* Chat input */}
