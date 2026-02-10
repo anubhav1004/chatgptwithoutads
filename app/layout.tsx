@@ -8,7 +8,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "ChatGPT Without Ads",
+  title: "ChatGPT - No Ads",
   description: "ChatGPT without the annoying ads. Just vibes.",
 };
 
