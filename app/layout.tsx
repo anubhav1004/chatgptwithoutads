@@ -9,7 +9,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 
 export const metadata: Metadata = {
   title: "ChatGPT Without Ads",
-  description: "ChatGPT UI Clone",
+  description: "ChatGPT without the annoying ads. Just vibes.",
 };
 
 export default function RootLayout({
