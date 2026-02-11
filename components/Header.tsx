@@ -11,7 +11,7 @@ export default function Header() {
           <Menu size={20} className="text-text-secondary" />
         </button>
         <div className="flex items-center gap-1 sm:gap-2 cursor-pointer hover:bg-hover-bg px-2 sm:px-3 py-1.5 sm:py-2 rounded-lg transition-colors">
-          <span className="text-sm sm:text-base font-medium text-text-primary">CuriousChat</span>
+          <span className="text-sm sm:text-base font-medium text-text-primary">GPT 5.22 without ads</span>
           <ChevronDown size={14} className="sm:w-4 sm:h-4 text-text-secondary" />
         </div>
       </div>
