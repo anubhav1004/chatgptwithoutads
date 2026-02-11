@@ -8,8 +8,8 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "ChatGPT - No Ads",
-  description: "ChatGPT without the annoying ads. Just vibes.",
+  title: "CuriousChat - Ad Free AI",
+  description: "An ad-free AI chat experience. Just vibes, no interruptions.",
 };
 
 export default function RootLayout({

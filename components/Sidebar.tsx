@@ -29,12 +29,12 @@ function SidebarItem({ icon, label, isActive }: SidebarItemProps) {
   );
 }
 
-interface GPTItemProps {
+interface ToolItemProps {
   name: string;
   color: string;
 }
 
-function GPTItem({ name, color }: GPTItemProps) {
+function ToolItem({ name, color }: ToolItemProps) {
   return (
     <div className="flex items-center gap-3 px-3 py-2 rounded-lg cursor-pointer hover:bg-hover-bg transition-colors">
       <div
@@ -49,16 +49,16 @@ function GPTItem({ name, color }: GPTItemProps) {
 }
 
 export default function Sidebar() {
-  const gpts = [
-    { name: "image generation", color: "#10a37f" },
-    { name: "Diagrams: Show Me", color: "#8b5cf6" },
-    { name: "Canva", color: "#00c4cc" },
-    { name: "Whimsical Diagrams", color: "#7c3aed" },
+  const tools = [
+    { name: "Image Generation", color: "#6366f1" },
+    { name: "Diagrams", color: "#8b5cf6" },
+    { name: "Design Canvas", color: "#00c4cc" },
+    { name: "Flowcharts", color: "#7c3aed" },
     { name: "Video", color: "#ef4444" },
-    { name: "Consensus", color: "#f59e0b" },
-    { name: "Scholar AI", color: "#3b82f6" },
-    { name: "DesignerGPT", color: "#ec4899" },
-    { name: "AskYourPDF", color: "#22c55e" },
+    { name: "Research", color: "#f59e0b" },
+    { name: "Scholar", color: "#3b82f6" },
+    { name: "Web Design", color: "#ec4899" },
+    { name: "PDF Reader", color: "#22c55e" },
   ];
 
   return (
@@ -66,16 +66,8 @@ export default function Sidebar() {
       {/* Header */}
       <div className="flex items-center justify-between p-3">
         <div className="flex items-center gap-2">
-          <div className="w-7 h-7 rounded-full bg-white flex items-center justify-center">
-            <svg
-              viewBox="0 0 24 24"
-              className="w-5 h-5"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-            >
-              <circle cx="12" cy="12" r="10" fill="black" />
-            </svg>
+          <div className="w-7 h-7 rounded-full bg-[#6366f1] flex items-center justify-center">
+            <span className="text-xs font-bold text-white">CC</span>
           </div>
         </div>
         <div className="flex items-center gap-1">
@@ -102,12 +94,12 @@ export default function Sidebar() {
         <div className="mt-4">
           <div className="flex items-center justify-between px-3 py-2">
             <span className="text-xs font-medium text-text-secondary uppercase tracking-wider">
-              GPTs
+              Tools
             </span>
             <ChevronDown size={14} className="text-text-secondary" />
           </div>
-          {gpts.map((gpt, index) => (
-            <GPTItem key={index} name={gpt.name} color={gpt.color} />
+          {tools.map((tool, index) => (
+            <ToolItem key={index} name={tool.name} color={tool.color} />
           ))}
         </div>
 

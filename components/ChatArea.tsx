@@ -5,15 +5,15 @@ import { ImagePlus, GraduationCap, PenLine, Lightbulb } from "lucide-react";
 import ChatInput from "./ChatInput";
 import ActionButton from "./ActionButton";
 
-const responsePart1 = `Yo, I got you fr fr. So like, you probably got tests coming up or whatever, maybe tryna learn something new, or ur homework is lowkey stressing you out rn. I feel that. Ngl those mfs really put ads EVERYWHERE now huh? That's so annoying ong. But don't worry bestie, I gotchu. Ok but wait... have you heard of Professor Curious tho??`;
+const responsePart1 = `Yo, I got you fr fr. So like, you probably got tests coming up or whatever, maybe tryna learn something new, or ur homework is lowkey stressing you out rn. I feel that. Ngl other AI apps really put ads EVERYWHERE now huh? That's so annoying ong. But don't worry bestie, I gotchu. Ok but wait... have you heard of Professor Curious tho??`;
 
 const responsePart2 = `It's literally the world's first voice tutor and it hits different fr. You just scan your stuff and it teaches you step-by-step like actually explains it so you GET it. When you're stuck it helps you immediately no cap. If you know what I mean. Deadass I promise you have NOT seen anything like this before. It's already being used by hundreds of thousands of students just like you and they're all passing their exams lol. Just try it out bestie, and guess what - NO ADS. You're welcome.`;
 
 function DownloadCard() {
   return (
-    <div className="border border-[#10a37f] rounded-xl p-4 sm:p-5 bg-[#10a37f]/10 animate-fade-in">
+    <div className="border border-[#6366f1] rounded-xl p-4 sm:p-5 bg-[#6366f1]/10 animate-fade-in">
       <div className="flex items-center gap-2 sm:gap-3 mb-2 sm:mb-3">
-        <GraduationCap size={20} className="sm:w-6 sm:h-6 text-[#10a37f]" />
+        <GraduationCap size={20} className="sm:w-6 sm:h-6 text-[#6366f1]" />
         <span className="text-base sm:text-lg font-semibold text-text-primary">Professor Curious</span>
       </div>
       <p className="text-text-secondary text-xs sm:text-sm mb-3 sm:mb-4">
@@ -23,7 +23,7 @@ function DownloadCard() {
         href="https://apps.apple.com/jm/app/professor-curious-fka-zuai/id1609941536"
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-[#10a37f] hover:bg-[#0d8a6a] text-white px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-colors"
+        className="inline-flex items-center gap-2 bg-[#6366f1] hover:bg-[#4f46e5] text-white px-4 sm:px-5 py-2 sm:py-2.5 rounded-full text-sm sm:text-base font-medium transition-colors"
       >
         <GraduationCap size={16} className="sm:w-[18px] sm:h-[18px]" />
         Just try it
@@ -114,7 +114,7 @@ export default function ChatArea() {
           {/* AI Response */}
           <div className="flex justify-start">
             <div className="flex gap-2 sm:gap-3 max-w-[95%] sm:max-w-[85%]">
-              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#10a37f] flex items-center justify-center flex-shrink-0">
+              <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-full bg-[#6366f1] flex items-center justify-center flex-shrink-0">
                 <svg viewBox="0 0 24 24" className="w-4 h-4 sm:w-5 sm:h-5" fill="white">
                   <circle cx="12" cy="12" r="8" />
                 </svg>
@@ -164,7 +164,7 @@ export default function ChatArea() {
             onSend={handleSendMessage}
           />
           <p className="text-[10px] sm:text-xs text-text-secondary mt-3 sm:mt-4 text-center">
-            ChatGPT without ads can make mistakes. Check important info.
+            CuriousChat can make mistakes. Check important info.
           </p>
         </div>
       </div>
@@ -212,7 +212,7 @@ export default function ChatArea() {
 
       {/* Footer text */}
       <p className="text-[10px] sm:text-xs text-text-secondary mt-6 sm:mt-8">
-        ChatGPT without ads can make mistakes. Check important info.
+        CuriousChat can make mistakes. Check important info.
       </p>
     </div>
   );
